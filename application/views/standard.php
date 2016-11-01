@@ -67,8 +67,10 @@
             <li class="dropdown<?php echo ($this->uri->segment(1) == 'Saker' ? ' active' : '') ?>">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Saker <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><?php echo anchor('/Saker/Liste','Saksliste'); ?></li>
-                <li><?php echo anchor('/Saker/Arkiv','Saksarkiv'); ?></li>
+                <li><?php echo anchor('/Saker/Nysak','Ny sak'); ?></li>
+                <li><?php echo anchor('/Saker/Saksliste','Saksliste'); ?></li>
+                <li><?php echo anchor('/Saker/Saksarkiv','Saksarkiv'); ?></li>
+                <li><?php echo anchor('/Saker/Moter','Møter'); ?></li>
               </ul>
             </li>
           </ul>
